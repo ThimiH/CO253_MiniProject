@@ -17,6 +17,25 @@ typedef struct {
     char* email[EMAIL_SIZE];
 } contact;
 
+contact** contacts;
+int* contactStatus;
+
+void loadContactsFromCSV();
+
+void saveContactsToCSV();
+
+void addNewContact();
+
+void deleteContact();
+
+void searchByName();
+
+void searchByContact();
+
+
+
+
 int main() {
     return 0;
 }
+

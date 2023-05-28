@@ -24,7 +24,17 @@ int homeMenu(){
     return command;
 }
 
-int main() {
-    homeMenu();
-    return 0;
+int searchForContacts(){
+    printf("---------------------\n");
+    printf(" SEARCH FOR CONTACTS \n");
+    printf("---------------------\n\n");
+    printf("0 - SEARCH BY NAME\n");
+    printf("1 - SEARCH BY NUMBER\n");
+    printf("2 - BACK\n\n");
+    printf("--------------------\n");
+    printf(" ENTER OPTION [0-2] \n");
+    printf("--------------------\n");
+    int command;
+    scanf("%d",&command);
+    return command;
 }

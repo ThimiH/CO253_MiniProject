@@ -5,9 +5,11 @@ Author: Thimira Hirushan (E/19/276)
 */
 
 #include <stdio.h>
+#include "userInterface.h"
 
 
 
 int main() {
+    homeMenu();
     return 0;
 }
