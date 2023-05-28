@@ -13,7 +13,7 @@ int main() {
     while (1){
         switch (homeMenu()){
             case 0:
-                break;            
+                return 0;            
             case 1:
                 break;            
             case 2:
