@@ -38,3 +38,9 @@ int searchForContacts(){
     scanf("%d",&command);
     return command;
 }
+
+void invalidCommand(){
+    printf("------------------\n");
+    printf(" INVALID COMMAND! \n");
+    printf("------------------\n\n");
+}
