@@ -20,21 +20,31 @@ typedef struct {
 contact** contacts;
 int* contactStatus;
 
-void loadContactsFromCSV();
+void loadContactsFromCSV(){
 
-void saveContactsToCSV();
+}
 
-void addNewContact();
+void saveContactsToCSV(){
 
-void deleteContact();
+}
 
-void searchByName();
+void addNewContact(){
 
-void searchByContact();
+}
 
-void listDownContacts();
+void deleteContact(){
 
-int main() {
-    return 0;
+}
+
+void searchByName(){
+
+}
+
+void searchByNumber(){
+
+}
+
+void listDownContacts(){
+
 }
 

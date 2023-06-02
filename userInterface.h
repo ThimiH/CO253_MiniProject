@@ -10,30 +10,28 @@ int homeMenu(){
     printf("---------------------------\n");
     printf(" CONTACT MANAGEMENT SYSTEM \n");
     printf("---------------------------\n\n");
+    printf("0. Quit\n");
+    printf("1. Add a new contact\n");
+    printf("2. List all contacts\n");
+    printf("3. Search for contact\n\n");
     printf("---------------------------\n");
+    printf(" ENTER OPTION [0-3] \n");
     printf("---------------------------\n");
-    printf("---------------------------\n");
-    printf("---------------------------\n");
-    printf("---------------------------\n");
-    printf("---------------------------\n\n");
-    printf("--------------------\n");
-    printf(" ENTER OPTION [0-5] \n");
-    printf("--------------------\n");
     int command;
     scanf("%d",&command);
     return command;
 }
 
 int searchForContacts(){
-    printf("---------------------\n");
+    printf("---------------------------\n");
     printf(" SEARCH FOR CONTACTS \n");
-    printf("---------------------\n\n");
+    printf("---------------------------\n\n");
     printf("0 - SEARCH BY NAME\n");
     printf("1 - SEARCH BY NUMBER\n");
     printf("2 - BACK\n\n");
-    printf("--------------------\n");
+    printf("---------------------------\n");
     printf(" ENTER OPTION [0-2] \n");
-    printf("--------------------\n");
+    printf("---------------------------\n");
     int command;
     scanf("%d",&command);
     return command;
