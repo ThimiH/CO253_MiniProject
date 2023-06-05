@@ -27,8 +27,8 @@ typedef struct contactList{
     contact *ptr;
 } contactList;
 
-void deleteContact(contact * prev);
-void editContact(contact * prev);
+void deleteContact(contact *);
+void editContact(contact *);
 
 contact *head_contact = NULL, *current_contact = NULL;
 int contact_count = 0;
@@ -67,12 +67,14 @@ void saveContactsToCSV(){
     FILE *fptr = fopen("Contacts.csv","w");
     contact *node = head_contact;
     while (node!=NULL){
-        printf("%s,%s,%s,%s\n", node->name,node->number,node->address,node->email);
         fprintf(fptr, "%s,%s,%s,%s\n", node->name,node->number,node->address,node->email);
         current_contact = node->next;
         free(node);
         node = current_contact;
     }
+    printf("\nAll contacts have been saved!!");
+    delay(2);
+    system("cls");
 }
 
 void addNewContact(){
@@ -209,10 +211,9 @@ void searchByName(){
     for (int i=0; i<ind-1;i++){
         printf("%d - %s\n",contList[i].index,contList[i].ptr->next->name);
     }
-    printf("\n ");
-    printf("---------------------------\n");
-    printf("ENTER OPTION  [0-%d] \n",ind-1);
-    printf(" 0 to go home. \n Other to view contact.\n");
+    printf("\n---------------------------\n");
+    printf(" ENTER OPTION  [0-%d] \n",ind-1);
+    printf(" -> 0 to go home. \n -> Other to view contact.\n");
     printf("---------------------------\n");
     fflush(stdin);
     int command;
@@ -254,10 +255,9 @@ void searchByNumber(){
     for (int i=0; i<ind-1;i++){
         printf("%d - %s\n",contList[i].index,contList[i].ptr->next->name);
     }
-    printf("\n ");
-    printf("---------------------------\n");
-    printf("ENTER OPTION  [0-%d] \n",ind-1);
-    printf(" 0 to go home. \n Other to view contact.\n");
+    printf("\n---------------------------\n");
+    printf(" ENTER OPTION  [0-%d] \n",ind-1);
+    printf("  -> 0 to go home. \n  -> Other to view contact.\n");
     printf("---------------------------\n");
     fflush(stdin);
     int command;

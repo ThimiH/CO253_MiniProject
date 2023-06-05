@@ -91,7 +91,7 @@ int editOptions(){
     printf("    1 - EDIT NAME\n");
     printf("    2 - EDIT NUMBER\n");
     printf("    3 - EDIT ADDRESS\n");
-    printf("    4 - EDIT EMAIL\n\n");
+    printf("    4 - EDIT EMAIL\n");
     printf("---------------------------------------------------------------------------------\n");
     printf("        ENTER OPTION  [0-4] \n");
     printf("---------------------------------------------------------------------------------\n");
@@ -99,3 +99,4 @@ int editOptions(){
     fflush(stdin);
     scanf("%d",&command);
     return command;
+}
