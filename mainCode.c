@@ -5,7 +5,7 @@ Author: Thimira Hirushan (E/19/276)
 */
 
 #include <stdio.h>
-#include "userInterface.h"
+#include <stdlib.h>
 #include "contactManagement.h"
 
 
@@ -18,13 +18,14 @@ int main() {
                 saveContactsToCSV();
                 return 0;
             case 1:
+                system("cls");
                 addNewContact();
                 break;
             case 2:
                 listDownContacts();
                 break;
             case 3:
-                switch (searchForContacts()){
+                switch (searchForContacts(contact_count)){
                     case 0:
                         searchByName();
                         break;
@@ -38,6 +39,7 @@ int main() {
                 }
                 break;
             default:
+                system("cls");
                 invalidCommand();
         }
     }
