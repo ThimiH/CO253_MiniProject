@@ -277,22 +277,26 @@ void listDownContacts(){
     current_contact = head_contact;
     contactList contList[contact_count]; 
     int ind = 1;
+    system("cls");
+    printf("\n---------------------------\n");
+    printf("       Contact List\n");
+    printf("---------------------------\n");
     for (int i=0; i<contact_count; i++){
         contList[i].index=i+1;
         contList[i].ptr = current_contact;
+        current_contact=current_contact->next;
         printf("%d - %s\n",contList[i].index,contList[i].ptr->next->name);
     }
-    printf("\n ");
-    printf("---------------------------\n");
+    printf("\n---------------------------\n");
     printf(" ENTER OPTION  [0-%d] \n",contact_count);
-    printf(" -> 0 to go home. \n -> Other to view contact.\n");
+    printf("  -> 0 to go home. \n  -> Other to view contact.\n");
     printf("---------------------------\n");
     fflush(stdin);
     int command;
     scanf("%d",&command);
     if (command==0){
     }
-    else if(1<=command<ind){
+    else if(1<=command<contact_count){
         displayContact(contList[command-1].ptr);
     }
     else{
