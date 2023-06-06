@@ -1,56 +1,54 @@
-NAME,PHONE_NUMBER,ADDRESS,EMAIL_ADDRESS
-Abel,631-335-3414,37275 St Rt 17,amaclead@gmail.com
-Albina,732-924-7882,4 Ralph Ct,albina@glick.com
-Alisha,732-658-3154,3273 State St,alisha@slusarski.com
-Alishia,212-860-1579,2742 Distributi,asergi@gmail.com
-Allene,715-662-6764,1 Central Ave,allene_iturbide@cox.net
-Ammie,614-801-9788,74874 Atlantic,ammie@corrio.com
-Art,856-636-8749,8 W Cerritos Av,art@venere.org
-Banuka,0753254524,Polgolla dam eka lnga,e19keeyahari@eng.pdn.ac.lk
-Bernardo,936-336-3951,386 9th Ave N,bfigeroa@aol.com
-Bette,610-545-3615,6 S 33rd St,bette_nicka@cox.net
-Blair,215-907-9111,209 Decker Dr,bmalet@yahoo.com
-Buddhi,0723144235,danfefjls 3243 45 42,sadas@abcd.com
-Cammy,956-537-6195,56 E Morehead S,calbares@gmail.com
-Chanel,913-388-2079,86 Nw 66th St #,chanel.caudy@caudy.org
-Donette,513-570-1893,34 Center St,donette.foller@cox.net
-Dyan,913-413-4604,7219 Woodfield,doldroyd@aol.com
-Emerson,608-336-7444,762 S Main St,emerson.bowley@bowley.org
-Erick,907-741-1044,20 S Babcock St,erick.ferencz@aol.com
-Ernie,201-709-6245,45 E Liberty St,ernie_stenseth@aol.com
-Ezekiel,410-669-1642,2 Cedar Ave #84,ezekiel@chui.com
-Fatima,952-768-2416,2 Lighthouse Av,fsaylors@saylors.org
-Fletcher,815-828-2147,394 Manchester ,fletcher.flosi@yahoo.com
-Francine,505-977-3911,366 South Dr,francine_vocelka@vocelka.com
-Gladys,414-661-9598,322 New Horizon,gladys.rim@rim.org
-Graciela,440-780-8425,98 Connecticut,gruta@cox.net
-James,504-621-8927,6649 N Blue Gum,jbutt@gmail.com
-Jina,617-399-5124,38938 Park Blvd,jina_briddick@briddick.com
-Jose,212-675-8570,128 Bransten Rd,jose@yahoo.com
-Josephine,810-292-9388,4 B Blue Ridge,josephine_darakjy@darakjy.org
-Kanisha,323-453-2780,5 Tomahawk Dr,kanisha_waycott@yahoo.com
-Kati,785-463-7829,6980 Dorsett Rd,kati.rulapaugh@hotmail.com
-Kaumini,070something,bangalawaththe (lokui kyl hitahgena inne),Cow@.com
-Kiley,310-498-5651,25 E 75th St #6,kiley.caldarera@aol.com
-Kris,410-655-8723,228 Runamuck Pl,kris@gmail.com
-Lavera,305-606-7291,678 3rd Ave,lperin@perin.org
-Lenna,907-385-4412,639 Main St,lpaprocki@hotmail.com
-Leota,408-752-3500,7 W Jackson Blv,leota@hotmail.com
-Maryann,518-966-7987,74 S Westgate S,mroyster@royster.com
-Mattie,602-277-4385,73 State Road 4,mattie@aol.com
-Meaghan,931-313-9635,69734 E Carrill,meaghan@hotmail.com
-Minna,215-874-1229,2371 Jerrold Av,minna_amigon@yahoo.com
-Mitsue,773-573-6914,7 Eads St,mitsue_tollner@yahoo.com
-Roxane,907-231-4722,1048 Main St,roxane@gmail.com
-Rozella,805-832-6163,17 Morena Blvd,rozella.ostrosky@ostrosky.com
-Sage,605-414-2147,5 Boston Ave #8,sage_wieser@cox.net
-Simona,419-503-2484,3 Mcauley Dr,simona@morasca.com
-Solange,504-979-9175,426 Wolf St,solange@shinko.com
-Tharuki,076dana,dfdmsoaf warapitiya,shinky@buddhi.com
-Thimira,714954066,ABCD 118,thimiH@gmail.com
-Valentine,210-812-9597,775 W 17th St,valentine_gillian@gmail.com
-Veronika,408-540-1785,6 Greenleaf Ave,vinouye@aol.com
-Willard,972-303-9197,618 W Yakima Av,willard@hotmail.com
-Willow,212-582-4976,90991 Thorburn,wkusko@yahoo.com
-Youlanda,541-548-8197,2881 Lewis Rd,youlanda@aol.com
-Yuki,313-288-7937,1 State Route 2,yuki_whobrey@aol.com
+NAME,PHONE_NUMBER,ADDRESS,EMAIL_ADDRESS,DATE_OF_BIRTH
+Abel,631-335-3414,37275 St Rt 17,amaclead@gmail.com,10/07/2000
+Albina,732-924-7882,4 Ralph Ct,albina@glick.com,11/07/2000
+Alisha,732-658-3154,3273 State St,alisha@slusarski.com,12/07/2000
+Alishia,212-860-1579,2742 Distributi,asergi@gmail.com,13/07/2000
+Allene,715-662-6764,1 Central Ave,allene_iturbide@cox.net,14/07/2000
+Ammie,614-801-9788,74874 Atlantic,ammie@corrio.com,15/07/2000
+Art,856-636-8749,8 W Cerritos Av,art@venere.org,16/07/2000
+Banuka,753254524,Polgolla dam eka lnga,e19keeyahari@eng.pdn.ac.lk,17/07/2000
+Bernardo,936-336-3951,386 9th Ave N,bfigeroa@aol.com,18/07/2000
+Bette,610-545-3615,6 S 33rd St,bette_nicka@cox.net,19/07/2000
+Blair,215-907-9111,209 Decker Dr,bmalet@yahoo.com,20/07/2000
+Buddhi,723144235,danfefjls 3243 45 42,sadas@abcd.com,21/07/2000
+Cammy,956-537-6195,56 E Morehead S,calbares@gmail.com,22/07/2000
+Chanel,913-388-2079,86 Nw 66th St #,chanel.caudy@caudy.org,23/07/2000
+Donette,513-570-1893,34 Center St,donette.foller@cox.net,24/07/2000
+Dyan,913-413-4604,7219 Woodfield,doldroyd@aol.com,25/07/2000
+Emerson,608-336-7444,762 S Main St,emerson.bowley@bowley.org,26/07/2000
+Erick,907-741-1044,20 S Babcock St,erick.ferencz@aol.com,27/07/2000
+Ernie,201-709-6245,45 E Liberty St,ernie_stenseth@aol.com,28/07/2000
+Ezekiel,410-669-1642,2 Cedar Ave #84,ezekiel@chui.com,29/07/2000
+Fatima,952-768-2416,2 Lighthouse Av,fsaylors@saylors.org,30/07/2000
+Fletcher,815-828-2147,394 Manchester ,fletcher.flosi@yahoo.com,31/07/2000
+Francine,505-977-3911,366 South Dr,francine_vocelka@vocelka.com,01/08/2000
+Gladys,414-661-9598,322 New Horizon,gladys.rim@rim.org,02/08/2000
+Graciela,440-780-8425,98 Connecticut,gruta@cox.net,03/08/2000
+James,504-621-8927,6649 N Blue Gum,jbutt@gmail.com,04/08/2000
+Jina,617-399-5124,38938 Park Blvd,jina_briddick@briddick.com,05/08/2000
+Jose,212-675-8570,128 Bransten Rd,jose@yahoo.com,06/08/2000
+Josephine,810-292-9388,4 B Blue Ridge,josephine_darakjy@darakjy.org,07/08/2000
+Kanisha,323-453-2780,5 Tomahawk Dr,kanisha_waycott@yahoo.com,08/08/2000
+Kati,785-463-7829,6980 Dorsett Rd,kati.rulapaugh@hotmail.com,09/08/2000
+Kaumini,705283364,Mn dan na,kau.adikari@gmail.com,10/08/2000
+Kiley,310-498-5651,25 E 75th St #6,kiley.caldarera@aol.com,11/08/2000
+Kris,410-655-8723,228 Runamuck Pl,kris@gmail.com,12/08/2000
+Lavera,305-606-7291,678 3rd Ave,lperin@perin.org,13/08/2000
+Lenna,907-385-4412,639 Main St,lpaprocki@hotmail.com,14/08/2000
+Leota,408-752-3500,7 W Jackson Blv,leota@hotmail.com,15/08/2000
+Maryann,518-966-7987,74 S Westgate S,mroyster@royster.com,16/08/2000
+Mattie,602-277-4385,73 State Road 4,mattie@aol.com,17/08/2000
+Meaghan,931-313-9635,69734 E Carrill,meaghan@hotmail.com,18/08/2000
+Mitsue,773-573-6914,7 Eads St,mitsue_tollner@yahoo.com,19/08/2000
+Roxane,907-231-4722,1048 Main St,roxane@gmail.com,20/08/2000
+Rozella,805-832-6163,17 Morena Blvd,rozella.ostrosky@ostrosky.com,21/08/2000
+Sage,605-414-2147,5 Boston Ave #8,sage_wieser@cox.net,22/08/2000
+Simona,419-503-2484,3 Mcauley Dr,simona@morasca.com,23/08/2000
+Solange,504-979-9175,426 Wolf St,solange@shinko.com,24/08/2000
+Tharuki,076dana,dfdmsoaf warapitiya,shinky@buddhi.com,25/08/2000
+Thimira,714954066,ABCD 118,thimiH@gmail.com,26/08/2000
+Valentine,210-812-9597,775 W 17th St,valentine_gillian@gmail.com,27/08/2000
+Veronika,408-540-1785,6 Greenleaf Ave,vinouye@aol.com,28/08/2000
+Willard,972-303-9197,618 W Yakima Av,willard@hotmail.com,29/08/2000
+Youlanda,541-548-8197,2881 Lewis Rd,youlanda@aol.com,30/08/2000
+Yuki,313-288-7937,1 State Route 2,yuki_whobrey@aol.com,31/08/2000
